@@ -1,0 +1,117 @@
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 991px) {
+  /* Config Header */
+  header nav {
+    display: none;
+  }
+  header .menu-mobile {
+    display: block;
+    padding: 1.3rem 3rem;
+  }
+
+  /* Config section Hero    */
+  .s-hero .container {
+    flex-direction: column;
+  }
+  .s-hero .texto {
+    max-width: 100%;
+    margin-bottom: 4rem;
+    display: flex;
+    align-items: center;
+  }
+  .s-hero .texto h1 p {
+    text-align: center;
+  }
+ 
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 53%;
+  }
+  /* Config section Hero */
+  .s-hero {
+    padding: 0rem 4rem;
+  }
+  .s-hero .container {
+    display: flex;
+    flex-direction: row;
+}
+
+ .s-hero .texto {
+  display: block;
+  width: 100%;
+  max-width: 450px;
+}
+.s-hero .texto p {
+  width: 100%;
+  max-width: 300px;
+}
+
+.s-hero .imagem {
+  display: flex;
+  height: 100%;
+  max-height: 400px;
+  max-width: 45%;
+  
+}
+.s-hero .imagem img {
+  max-height: 100px;
+}
+}
+
+@media (max-width: 600px) {
+  /* Config Header */
+  header .logo {
+    max-width: 130px;
+  }
+
+  /* Config section Hero */
+ .s-hero {
+    padding-top: 4rem;
+  }
+  .s-hero .container {
+    display: flex;
+    align-items: center;
+    padding: 2rem 1rem;
+    flex-direction: column;
+
+  } 
+  .s-hero .texto {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: auto;
+  }
+  .s-hero .texto h1 {
+    width: 100%;
+    max-width: 550px;
+  
+  }
+  .s-hero .texto p {
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .s-hero .imagem {
+    display: flex;
+    flex-direction: column;
+    max-height: 50%;
+    max-width: 86%;
+
+  }
+  .s-hero .imagem img {
+    max-width: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 50%;
+  }
+.s-hero .imagem {
+  max-width: 90%;
+  }
+}
